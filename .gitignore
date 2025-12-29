@@ -1,0 +1,137 @@
+############################
+# 🔥 Python & Environment
+############################
+
+venv/
+env/
+.venv/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+*.log
+
+############################
+# 🔥 Data / Datasets / CIFAR
+############################
+
+data/
+datasets/
+cifar*/
+*.npz
+*.npy
+*.tar
+*.zip
+*.gz
+*.csv
+*.xlsx
+*.pdf
+
+############################
+# 🔥 OCR & Temp Outputs
+############################
+
+temp*.jpg
+temp*.png
+inputs/
+output/
+results/
+exports/
+reports/
+media/
+processed/
+logs/
+*.txt   # optional if not needed
+
+############################
+# 🔥 Models / HuggingFace / Checkpoints
+############################
+
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+
+# HuggingFace cache
+~/.cache/
+cache/
+huggingface/
+transformers/
+datasets/*
+
+############################
+# 🔥 Web/UI Related
+############################
+
+streamlit/
+.streamlit/
+*.db
+*.sqlite3
+
+############################
+# 🔥 OS & Editor Junk files
+############################
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+############################
+# 🔥 Images (keep sample only)
+############################
+
+samples/*
+!samples/example1.jpg
+!samples/example2.jpg
+# environments
+venv/
+env/
+.venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# Datasets / OCR / CIFAR / bulky data
+data/
+datasets/
+cifar*/
+output/
+exports/
+results/
+logs/
+
+# model files
+*.pt
+*.pth
+*.bin
+models/
+checkpoints/
+
+# HuggingFace & Transformers cache
+.cache/
+huggingface/
+transformers/
+sentencepiece/
+
+# Images (only keep small samples manually)
+samples/*
+!samples/example1.jpg          # keep only if you add explicitly
+!samples/example2.jpg
+
+# notebooks
+.ipynb_checkpoints/
+
+# temp files
+temp*
+*.txt
